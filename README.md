@@ -1,5 +1,9 @@
 # tiny-chess-01 entry: NapLan Chess
 
+[![make.fun bounty](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![make.fun rank](https://make.fun/badge/tiny-chess-01/jaslyncastaneda256328-debug/naplan-tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01)
+[![make.fun reward](https://make.fun/badge/tiny-chess-01/jaslyncastaneda256328-debug/naplan-tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01)
+
 An original chess engine in Python, written for make.fun's
 "Build the strongest chess engine in 4 KB of Python" bounty.
 
@@ -21,8 +25,9 @@ gauntlet through the env at `$MAKEFUN_ENV_URL`:
 MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 main.py
 ```
 
-The readable source it was packed from is `engine.py` (kept beside
-the entry; the kit's `compress` command packed it). The source is
+The readable source it was packed from is `engine.py` (included
+in the submission bundle as the pack source; the kit's `compress`
+command packed it). The source is
 minified for the 4 KB cap (terse names, no comments); a fully
 commented copy is kept in `../tiny-chess-test/engine_full_backup.py`.
 
