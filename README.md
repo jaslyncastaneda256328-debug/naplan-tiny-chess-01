@@ -22,7 +22,9 @@ MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 main.py
 ```
 
 The readable source it was packed from is `engine.py` (kept beside
-the entry; the kit's `compress` command packed it).
+the entry; the kit's `compress` command packed it). The source is
+minified for the 4 KB cap (terse names, no comments); a fully
+commented copy is kept in `../tiny-chess-test/engine_full_backup.py`.
 
 ## License
 
